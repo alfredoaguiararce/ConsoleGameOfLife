@@ -30,6 +30,10 @@ If you want to contribute to this project, please follow these steps:
 4. Push your changes to your forked repository.
 5. Create a pull request with a description of your changes.
 
+## **About the update**
+
+This update replaces the previous code that generated a console menu to select patterns for the Game of Life. Now the application runs directly when starting the program and is played with a fixed pattern. However, the same game functionality and usage instructions are maintained.
+
 ## **License**
 
 This project is licensed under the MIT License. See the **[LICENSE](https://chat.openai.com/c/LICENSE)** file for more information.
