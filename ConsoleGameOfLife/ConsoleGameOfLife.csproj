@@ -8,7 +8,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="ConwaysGameOfLife" Version="1.0.1" />
+    <PackageReference Include="ConwaysGameOfLife" Version="1.1.2" />
+    <PackageReference Include="MenuConsoleBuilder" Version="1.0.1" />
   </ItemGroup>
 
 </Project>

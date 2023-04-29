@@ -15,23 +15,24 @@ namespace ConsoleGameOfLife.Utils
             bool[,] Board = Game.GetCurrentBoard();
             int rows = Board.GetLength(0);
             int columns = Board.GetLength(1);
-
+            string BoardFrame = "";
             for (int i = 0; i < rows; i++)
             {
                 for (int j = 0; j < columns; j++)
                 {
                     if (Board[i, j])
                     {
-                        Console.Write("X ");
+                        BoardFrame += "X ";
                     }
                     else
                     {
-                        Console.Write(". ");
+                        BoardFrame += ". ";
                     }
                 }
-
-                Console.WriteLine();
+                BoardFrame += "\n";
             }
+
+            Console.Write(BoardFrame);
         }
 
         /// <summary>
